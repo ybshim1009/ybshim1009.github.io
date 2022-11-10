@@ -1,13 +1,11 @@
 ---
 layout: post
-title: You're up and running!
+title: Improved Variational Inference with Inverse Autoregressive Flow
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+2017년도에 발표된 Improved Variational Inference with Inverse Autoregressive Flow 논문에 대해 소개드리겠습니다.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
-
-ttest
-![_config.yml]({{ site.baseurl }}/images/제목 없음.png)
+![_config.yml]({{ site.baseurl }}/images/01.png)
+![_config.yml]({{ site.baseurl }}/images/02.png)
+![_config.yml]({{ site.baseurl }}/images/03.png)
