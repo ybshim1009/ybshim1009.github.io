@@ -10,16 +10,24 @@ title: Improved Variational Inference with Inverse Autoregressive Flow
 
 ![_config.yml]({{ site.baseurl }}/images/01.PNG)
 
+설명1
+
 ***
 
 ![_config.yml]({{ site.baseurl }}/images/02.PNG)
+
+설명2
 
 ***
 
 ![_config.yml]({{ site.baseurl }}/images/03.PNG)
 
+설명3
+
 ***
 
 ![_config.yml]({{ site.baseurl }}/images/제목 없음.png)
+
+설명1
 
 ***
