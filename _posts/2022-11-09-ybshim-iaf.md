@@ -9,9 +9,9 @@ title: Improved Variational Inference with Inverse Autoregressive Flow
 
 ![_config.yml]({{ site.baseurl }}/images/01.PNG)
 
-```
+----------
 ![_config.yml]({{ site.baseurl }}/images/02.PNG)
-```
+----------
 
 ***
 ![_config.yml]({{ site.baseurl }}/images/03.PNG)
