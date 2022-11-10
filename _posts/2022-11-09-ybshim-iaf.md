@@ -30,8 +30,105 @@ title: Improved Variational Inference with Inverse Autoregressive Flow
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/04.png)
+![_config.yml]({{ site.baseurl }}/images/04.PNG)
 
-설명1
+가나다
 
 ***
+
+![_config.yml]({{ site.baseurl }}/images/05.PNG)
+
+가나다
+
+***
+
+![_config.yml]({{ site.baseurl }}/images/06.PNG)
+
+가나다
+
+***
+
+![_config.yml]({{ site.baseurl }}/images/07.PNG)
+
+가나다
+
+***
+
+![_config.yml]({{ site.baseurl }}/images/08.PNG)
+
+가나다
+
+***
+
+![_config.yml]({{ site.baseurl }}/images/09.PNG)
+
+가나다
+
+***
+
+![_config.yml]({{ site.baseurl }}/images/10.PNG)
+
+가나다
+
+***
+
+![_config.yml]({{ site.baseurl }}/images/11.PNG)
+
+가나다
+
+***
+
+![_config.yml]({{ site.baseurl }}/images/12.PNG)
+
+가나다
+
+***
+
+![_config.yml]({{ site.baseurl }}/images/13.PNG)
+
+가나다
+
+***
+
+![_config.yml]({{ site.baseurl }}/images/14.PNG)
+
+가나다
+
+***
+
+![_config.yml]({{ site.baseurl }}/images/15.PNG)
+
+가나다
+
+***
+
+![_config.yml]({{ site.baseurl }}/images/16.PNG)
+
+가나다
+
+***
+
+![_config.yml]({{ site.baseurl }}/images/17.PNG)
+
+가나다
+
+***
+
+![_config.yml]({{ site.baseurl }}/images/18.PNG)
+
+가나다
+
+***
+
+![_config.yml]({{ site.baseurl }}/images/19.PNG)
+
+가나다
+
+***
+
+![_config.yml]({{ site.baseurl }}/images/20.PNG)
+
+가나다
+
+***
+
