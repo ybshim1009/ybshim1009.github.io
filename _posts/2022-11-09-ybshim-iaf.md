@@ -132,3 +132,8 @@ title: Improved Variational Inference with Inverse Autoregressive Flow
 
 ***
 
+![_config.yml]({{ site.baseurl }}/images/21.PNG)
+
+가나다
+
+***
