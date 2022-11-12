@@ -6,6 +6,8 @@ title: Improved Variational Inference with Inverse Autoregressive Flow
 ***
 2016년도에 발표된 Improved Variational Inference with Inverse Autoregressive Flow 논문에 대해 소개드리겠습니다.
 
+blog link : https://ybshim1009.github.io/
+
 ***
 
 ![_config.yml]({{ site.baseurl }}/IAF_IMGs/01.PNG)
