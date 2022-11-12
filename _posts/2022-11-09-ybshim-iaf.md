@@ -8,17 +8,17 @@ title: Improved Variational Inference with Inverse Autoregressive Flow
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/01.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/01.PNG)
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/02.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/02.PNG)
 
 소개 순서는 위와 같습니다. 기본적으로 논문에서 서술하고 있는 순서입니다.
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/03.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/03.PNG)
 
 이 논문은 새로운 타입의 NF를 제안하고 있습니다. inverse autoregressive flow의 약자로 IAF라는 NF입니다.
 이 것은 고차원의 latent space로 확장이 용이하다고 합니다.
@@ -30,7 +30,7 @@ title: Improved Variational Inference with Inverse Autoregressive Flow
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/04.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/04.PNG)
 
 다음은 variational inference에 대한 일반적인 내용입니다. 간단히 이야기하고 넘어가자면,
 생성 모델의 목표는 마지널 라이클리후드를 최대화 하는 것인데,
@@ -48,7 +48,7 @@ KL D는 작아질 것이고, p와 유사한 분포를 얻을 수 있습니다.
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/05.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/05.PNG)
 
 다음에는 NF에 대해서 이야기 하고 있습니다.
 지난 수업시간에 들었듯이, NF는 쉬운 분포로부터 역변환이 가능한 여러 연산을 수행하여 유연한 포스테리어를 얻을 수 있습니다.
@@ -62,7 +62,7 @@ KL D는 작아질 것이고, p와 유사한 분포를 얻을 수 있습니다.
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/06.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/06.PNG)
 
 이제부터 본 논문에서 이야기하는 inverse autoregressive 변환에 대한 이야기 입니다.
 
@@ -88,13 +88,13 @@ yi는 뮤와 시그마로 만들어지는데, 미래의 yi로 과거의 뮤와 �
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/07.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/07.PNG)
 
 이 그림은 자코비안에 대한 예시입니다.
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/08.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/08.PNG)
 
 먼저 자코비안 입니다. 
 앞에서 이야기한데로, 뮤와 시그마를 y로 미분하면 대각선이 0이 되고 자코비안이 0이 됩니다.
@@ -103,7 +103,7 @@ yi는 뮤와 시그마로 만들어지는데, 미래의 yi로 과거의 뮤와 �
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/09.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/09.PNG)
 
 조금더 정리해보자면 다음과 같습니다.
 왼쪽은 autoregressive변환의 경우이며, 오른쪽은 인버스 오토리그레시브 변환입니다.
@@ -118,7 +118,7 @@ AT에서는 z를 구하는데, x의 값만을 입력을 받습니다.
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/10.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/10.PNG)
 
 이 inverse autoregressive 변환을 이용하여 IAF를 제안하였습니다.
 앞에서 언급된 T번 변환된 q 값은 그림과 같이 초기값과 디터미넌트를 입력하여 풀어주면
@@ -128,7 +128,7 @@ AT에서는 z를 구하는데, x의 값만을 입력을 받습니다.
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/11.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/11.PNG)
 
 처음에 입력된 x와 별도로 엡실론을 선택하여 z초기 값을 만든 후, IAF 스탭을 거치게 됩니다.
 여기서 추가적으로 h 값이 만들어지고 각IAF 스텝에 입력됩니다. 
@@ -143,19 +143,19 @@ AT에서는 z를 구하는데, x의 값만을 입력을 받습니다.
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/12.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/12.PNG)
 
 다음은 현재까지 이야기한 내용을 수도코드로 표현한 것입니다.
 중간에 보면 앞에서 보았던 zt식이 보이며, 매 스탭마다 디터미넌트 값을 더하는 것을 확인할 수 있습니다.
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/13.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/13.PNG)
 
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/14.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/14.PNG)
 
 다음은 실험입니다.
 resnet블럭을 사용하였으며, autoregressiveNN는 2레이어짜리 MADE 1개로 구성하였다고 합니다.
@@ -170,34 +170,34 @@ MNIST데이터의 경우,
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/15.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/15.PNG)
 
 마지막으로 내용을 정리하면, p를 찾아가는 방법으로 q를 도입하였으며, q를 잘 변형하여 새로운 q를 만들어 성능을 높인 논문으로
 변환하는 과정에 autoregressive성질을 반영하여 디터미넌튼 연산과 병렬 연산이 가능하도록 하였습니다.
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/16.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/16.PNG)
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/17.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/17.PNG)
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/18.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/18.PNG)
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/19.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/19.PNG)
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/20.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/20.PNG)
 
 ***
 
-![_config.yml]({{ site.baseurl }}/images/21.PNG)
+![_config.yml]({{ site.baseurl }}/IAF_IMGs/21.PNG)
 
 ***
 
