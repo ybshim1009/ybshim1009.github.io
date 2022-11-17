@@ -23,7 +23,7 @@ Diederik P. Kingma (OpenAI), Tim Salimans (OpenAI), Rafal Jozefowics (OpenAI), X
 6. Conclusion
 7. Q&A
 
-
+***
 
 1. Introduction
 본 논문의 주요 contribution은 새로운 타입의 NF(IAF: Inverse Autoregressive Flow)를 제안하였으며, 이는 고차원 latent space로 확장이 용이하다는 특징이 있습니다. 이를 입증하기 위해 VAE에 적용하였습니다.
