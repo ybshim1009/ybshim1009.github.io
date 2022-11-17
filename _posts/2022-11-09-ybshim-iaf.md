@@ -78,6 +78,7 @@ Diederik P. Kingma (OpenAI), Tim Salimans (OpenAI), Rafal Jozefowics (OpenAI), X
  
 ![image](https://user-images.githubusercontent.com/117826908/202465843-db4cb455-a832-4a22-b7c6-b60d43731e46.png)
 
+![image](https://user-images.githubusercontent.com/117826908/202467578-837d7c9b-bec3-403f-a3dd-db0b18bde33d.png)
 
 앞에서 이야기한 대로 자코비안 디터미넌트를 구해야 합니다. 각 element는 위와 같습니다. 이는 현재 정보가 과거 정보에 의해 만들어지고 있는 autoregressive 구조이며, 이런 경우, 자코비안은 대각선이 0인 하삼각행렬이 됩니다. 
 
@@ -101,6 +102,7 @@ Diederik P. Kingma (OpenAI), Tim Salimans (OpenAI), Rafal Jozefowics (OpenAI), X
 
 ![image](https://user-images.githubusercontent.com/117826908/202466126-1f1d50fe-02d7-41db-af33-975ab0857ed1.png)
 
+![image](https://user-images.githubusercontent.com/117826908/202467640-15ec0881-6e76-4cc7-81b3-9195e28c85f4.png)
 
  
  
